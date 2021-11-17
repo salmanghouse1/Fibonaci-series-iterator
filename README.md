@@ -1,4 +1,4 @@
-# Assignment: A Fibonacci series iterable
+# A Fibonacci series iterable
 
 
 Write an iterable which produces an iterator of the Fibonacci series for a
