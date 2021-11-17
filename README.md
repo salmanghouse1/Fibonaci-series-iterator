@@ -11,26 +11,27 @@ Example:
 [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
 ```
 
-### `(/7)` Structure & naming
-- `(/1)` Write a test module called `test_fibonacci.py`
-- `(/1)` Write a module called `fibonacci.py`
-- `(/5)` Create an iterable class called `Fibonacci` which requires a single
-  positional argument. Remember, an iterable class has to:
+### What this software includes:
+
+-  a test module called `test_fibonacci.py`
+-  a module called `fibonacci.py`
+-  iterable class called `Fibonacci` which requires a single
+  positional argument. , an iterable class has to:
     - Have an `__iter__`
     - Have a `__next__`
     - Raise a `StopIteration` exception when there are no more items
 
 
-### Requirements & build steps
-Using TDD methodology, develop an algorithm to assert the following test
+### TDD
+TDD methodology, developed an algorithm to assert the following test
 cases.
 
-Note: iterables return iterators and not lists, so to build a proper assertion,
-cast the result as a list.
+Note: iterables return iterators and not lists, 
 
 ```python
 assert list(Fibonacci(2)) == [0, 1, 1]
 ```
+## Tests
 
 1. If constructed with a value other than an integer, the Fibonacci constructor
   should raise a ValueError.
@@ -49,19 +50,3 @@ assert list(Fibonacci(2)) == [0, 1, 1]
 sequence. Building a function which only handles the above cases is
 insufficient and will not be accepted.
 
-### `(/21)` Development matrix
-| Step | Test assertion | Code written to pass | Commit Exists |
-| ---- | ---- | ---- | ------ |
-| **#1** | | | |
-| **#2** | | | |
-| **#3** | | | |
-| **#4** | | | |
-| **#5** | | | |
-| **#6** | | | |
-| **#7** | | | |
-
-
-### Code style
-
-Tests & codestyle must pass. -1% will be deducted for each code style
-violation.
